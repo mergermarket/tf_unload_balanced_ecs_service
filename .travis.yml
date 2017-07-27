@@ -1,0 +1,13 @@
+sudo: required
+services:
+- docker
+install: true
+script: "./test/run.sh"
+branches:
+  only:
+  - master
+notifications:
+  slack:
+    secure: lDA3tCJMpgRkXQi2xxWBT9f1c+wMTJccXKLtlKRo5DLd+C5sPiYWnBQsVmDDqP5gXC57j+CCjzYhud7m1TeTNkABbqWHDgtcdCISjjy+fL/cRAshtdaIc3y4X69sjhY9fHQKm/NSS2UuBKyFlK12ATCl7eRnEh3W4CzYa39+O50UsRU14I5B+xL4Mhe0Q2JuPHjyBWjSNpQ/N++47rBlKfXbFxgOfCn2/jEytNV/T/YefGI0EwAmLGbVRvaVAhAiIeq0XVZZSLbbSVkuNUiHBkRXZg2/9RTZ1e0y4hmKvesQf8Fy3ghepbduf8peyBA3bTqPw0GboqucflKMcAVqUAp+nkLXu2PBDy+5v76xCPTtL4ldT8yAh3TaRe45VRAEueycABEDp2kfNMtg1FfENbjxLkFxTim85s1/ZuXqnW05wnJm1RDJlo4eSHwnCKaU+bQhBVeVgVHRuvgeSn4A/U+8FQnvthLfgM96SwGHwAR2WCZTk/LwHZLE1f8auEEtB8eY8LtcPxNN/brPEKkK5YvVTI2Jfpev4pLrU9dPix0IFt/OGOta92cLuoF/Nkuu82qvEtZr0B69U/sLauSLzLUTqGeOSFvrJesVluxhGb4idqOZtGCwsLusBz6Px1fRp10wcrVOPc7GWk6YmDuNp2o8n83mFDzuclr34UkgAIM=
+  on_success: change
+  email: false
