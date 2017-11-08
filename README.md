@@ -22,7 +22,7 @@ Usage
 
 ```hcl
 module "service" {
-  source = "github.com/mergermarket/tf_ecs_service"
+  source = "github.com/mergermarket/tf_unload_balanced_ecs_service"
 
   # required
   name            = "foobar"
