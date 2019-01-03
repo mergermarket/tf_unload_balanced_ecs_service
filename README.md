@@ -1,7 +1,7 @@
 AWS ECS Service terraform module
 ================================
 
-[![Build Status](https://travis-ci.org/mergermarket/tf_ecs_service.svg?branch=master)](https://travis-ci.org/mergermarket/tf_ecs_service)
+[![Build Status](https://travis-ci.org/mergermarket/tf_unload_balanced_ecs_service.svg?branch=master)](https://travis-ci.org/mergermarket/tf_unload_balanced_ecs_service)
 
 This module creates an ECS Service.
 
